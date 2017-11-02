@@ -46,19 +46,16 @@ public class ClientServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet ClientServlet at " + request.getContextPath() + "</h1>");
-            
-            try {
+                          
                 int i = 3;
-                int j = 4;
+                int j = 4; 
                 int result = add(i, j);
                 out.println("Result = " + result);
-            } catch (Exception ex) {
-                out.println("Exception: " + ex);
-            }
             
             out.println("</body>");
             out.println("</html>");
         }
+        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
