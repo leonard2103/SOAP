@@ -16,7 +16,7 @@ public class CalculatorWS_Client_Application {
      */
     public static void main(String[] args) {
         try {
-            int i = 3;
+            int i = 1;
             int j = 4;
             int result = add(i, j);
             System.out.println("Result = " + result);
